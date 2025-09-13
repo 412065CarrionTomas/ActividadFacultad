@@ -1,0 +1,318 @@
+[
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.ArticlesController",
+    "Method": "Get",
+    "RelativePath": "api/Articles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.ArticlesController",
+    "Method": "Post",
+    "RelativePath": "api/Articles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "article",
+        "Type": "Act_01.Domain.Article",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.ArticlesController",
+    "Method": "Get",
+    "RelativePath": "api/Articles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.ArticlesController",
+    "Method": "Put",
+    "RelativePath": "api/Articles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "article",
+        "Type": "Act_01.Domain.Article",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.ArticlesController",
+    "Method": "Delete",
+    "RelativePath": "api/Articles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoiceDetailsController",
+    "Method": "Get",
+    "RelativePath": "api/InvoiceDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoiceDetailsController",
+    "Method": "Post",
+    "RelativePath": "api/InvoiceDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceDetail",
+        "Type": "Act_01.Domain.InvoiceDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoiceDetailsController",
+    "Method": "Get",
+    "RelativePath": "api/InvoiceDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoiceDetailsController",
+    "Method": "Put",
+    "RelativePath": "api/InvoiceDetails/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceDetail",
+        "Type": "Act_01.Domain.InvoiceDetail",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoiceDetailsController",
+    "Method": "Delete",
+    "RelativePath": "api/InvoiceDetails/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoicesController",
+    "Method": "Get",
+    "RelativePath": "api/Invoices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoicesController",
+    "Method": "Post",
+    "RelativePath": "api/Invoices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoice",
+        "Type": "Act_01.Domain.Invoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoicesController",
+    "Method": "Get",
+    "RelativePath": "api/Invoices/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoicesController",
+    "Method": "Put",
+    "RelativePath": "api/Invoices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoice",
+        "Type": "Act_01.Domain.Invoice",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.InvoicesController",
+    "Method": "Delete",
+    "RelativePath": "api/Invoices/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.PaymentsMethodsController",
+    "Method": "Get",
+    "RelativePath": "api/PaymentsMethods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.PaymentsMethodsController",
+    "Method": "Post",
+    "RelativePath": "api/PaymentsMethods",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentMethod",
+        "Type": "Act_01.Domain.PaymentMethod",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.PaymentsMethodsController",
+    "Method": "Get",
+    "RelativePath": "api/PaymentsMethods/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.PaymentsMethodsController",
+    "Method": "Put",
+    "RelativePath": "api/PaymentsMethods/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentMethod",
+        "Type": "Act_01.Domain.PaymentMethod",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEB_API_Act_Fac.Controllers.PaymentsMethodsController",
+    "Method": "Delete",
+    "RelativePath": "api/PaymentsMethods/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

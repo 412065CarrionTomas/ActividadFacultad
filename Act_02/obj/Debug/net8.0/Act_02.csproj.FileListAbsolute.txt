@@ -83,3 +83,4 @@ C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_02\obj\Debug\net8.0\refint\A
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_02\obj\Debug\net8.0\Act_02.pdb
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_02\obj\Debug\net8.0\Act_02.genruntimeconfig.cache
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_02\obj\Debug\net8.0\ref\Act_02.dll
+C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_02\obj\Debug\net8.0\Act_02.sourcelink.json

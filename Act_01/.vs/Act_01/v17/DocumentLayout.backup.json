@@ -1,31 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_01\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{32C74594-D164-4F2A-99ED-8FE647BC783A}|Act_01.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_01\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C74594-D164-4F2A-99ED-8FE647BC783A}|Act_01.csproj|solutionrelative:data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E818C0F8-9594-4050-99C1-EF7C3775F598}|..\\Act_02\\Act_02.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E818C0F8-9594-4050-99C1-EF7C3775F598}|..\\Act_02\\Act_02.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_02\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E818C0F8-9594-4050-99C1-EF7C3775F598}|..\\Act_02\\Act_02.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_02\\controllers\\invoicedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E818C0F8-9594-4050-99C1-EF7C3775F598}|..\\Act_02\\Act_02.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_02\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E818C0F8-9594-4050-99C1-EF7C3775F598}|..\\Act_02\\Act_02.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_02\\controllers\\paymentsmethodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C74594-D164-4F2A-99ED-8FE647BC783A}|Act_01.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_01\\service\\interface\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C74594-D164-4F2A-99ED-8FE647BC783A}|Act_01.csproj|solutionrelative:service\\interface\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -33,102 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_01\\Data\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Data\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_01\\Data\\UnitOfWork.cs",
-              "RelativeToolTip": "Data\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:51:29.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Act_02\\Program.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Program.cs",
-              "RelativeToolTip": "..\\Act_02\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:50:45.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGenericService.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_01\\Service\\Interface\\IGenericService.cs",
-              "RelativeDocumentMoniker": "Service\\Interface\\IGenericService.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_01\\Service\\Interface\\IGenericService.cs",
-              "RelativeToolTip": "Service\\Interface\\IGenericService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:48:31.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaymentsMethodsController.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\PaymentsMethodsController.cs",
-              "RelativeDocumentMoniker": "..\\Act_02\\Controllers\\PaymentsMethodsController.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\PaymentsMethodsController.cs",
-              "RelativeToolTip": "..\\Act_02\\Controllers\\PaymentsMethodsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:48:13.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InvoicesController.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\InvoicesController.cs",
-              "RelativeDocumentMoniker": "..\\Act_02\\Controllers\\InvoicesController.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\InvoicesController.cs",
-              "RelativeToolTip": "..\\Act_02\\Controllers\\InvoicesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:48:03.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InvoiceDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\InvoiceDetailsController.cs",
-              "RelativeDocumentMoniker": "..\\Act_02\\Controllers\\InvoiceDetailsController.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\InvoiceDetailsController.cs",
-              "RelativeToolTip": "..\\Act_02\\Controllers\\InvoiceDetailsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:47:49.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArticlesController.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\ArticlesController.cs",
-              "RelativeDocumentMoniker": "..\\Act_02\\Controllers\\ArticlesController.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_02\\Controllers\\ArticlesController.cs",
-              "RelativeToolTip": "..\\Act_02\\Controllers\\ArticlesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T22:47:39.141Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

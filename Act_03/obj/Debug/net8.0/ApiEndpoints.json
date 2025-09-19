@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "Act_03.Controllers.InvoiceDTOController",
+    "Method": "GetAllDTO",
+    "RelativePath": "api/InvoiceDTO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Act_03.Controllers.InvoicesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Invoices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Act_03.Controllers.InvoicesController",
+    "Method": "Post",
+    "RelativePath": "api/Invoices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoice",
+        "Type": "Act_01.Domain.Invoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Act_03.Controllers.InvoicesController",
+    "Method": "GetById",
+    "RelativePath": "api/Invoices/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Act_03.Controllers.InvoicesController",
+    "Method": "Put",
+    "RelativePath": "api/Invoices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "invoiceUpdate",
+        "Type": "Act_01.Domain.Invoice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Act_03.Controllers.InvoicesController",
+    "Method": "Delete",
+    "RelativePath": "api/Invoices/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

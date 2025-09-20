@@ -20,6 +20,5 @@ namespace Act_01.Domain
         public Decimal PrecioUnitario { get; set; } = 0m;
         [Required]
         public int Activo { get; set; } = 0;
-
     }
 }

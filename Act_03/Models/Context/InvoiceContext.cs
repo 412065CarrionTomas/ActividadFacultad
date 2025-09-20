@@ -1,4 +1,5 @@
 ﻿using Act_01.Domain;
+using Act_03.Migrations;
 using Microsoft.EntityFrameworkCore;
 
 namespace Act_03.Models.Context

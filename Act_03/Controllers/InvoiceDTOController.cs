@@ -1,4 +1,6 @@
-﻿using Act_03.Services;
+﻿using Act_01.Domain;
+using Act_03.Models.Domain.DTOs;
+using Act_03.Services;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,18 +11,12 @@ namespace Act_03.Controllers
     [ApiController]
     public class InvoiceDTOController : ControllerBase
     {
-        private readonly IInvoiceService _InvoiceService;
-        public InvoiceDTOController(IInvoiceService invoiceService)
+        private readonly IGenericDTOService<InvoiceDTO> _InvoiceService;
+        public InvoiceDTOController(IGenericDTOService<InvoiceDTO> invoiceService)
         {
             _InvoiceService = invoiceService;
         }
-        //// GET: api/<InvoiceDTOController>
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-
+        
         // GET api/<InvoiceDTOController>/5
         [HttpGet]
         public IActionResult GetAllDTO()
@@ -37,22 +33,71 @@ namespace Act_03.Controllers
             }
         }
 
-        //// POST api/<InvoiceDTOController>
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-        //}
+        [HttpGet("{id}")]
+        public IActionResult GetDTOById(int id)
+        {
+            try
+            {
+                InvoiceDTO? invoiceDTO = _InvoiceService.GetDTOById(id);
+                if(invoiceDTO == null) { return BadRequest(); }
+                return Ok(invoiceDTO);
+            }
+            catch (Exception ex)
+            {
+                return (IActionResult)ex;
+            }
+        }
 
-        //// PUT api/<InvoiceDTOController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
+        
+        // POST api/<InvoiceDTOController>
+        [HttpPost]
+        public IActionResult Post([FromBody] InvoiceDTO value)
+        {
+            try
+            {
+                bool result = _InvoiceService.InsertDTO(value);
+                if(result == false) { return BadRequest(); }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return (IActionResult)ex;
+            }
+        }
 
-        //// DELETE api/<InvoiceDTOController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+        // PUT api/<InvoiceDTOController>/5
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] InvoiceDTO value)
+        {
+            try
+            {
+                bool result = _InvoiceService.UpdateDTO(id, value);
+                if(_InvoiceService.GetDTOById(id) == null) { return BadRequest(); }
+                if(value == null) { return BadRequest(); }
+                if(result == false) { return BadRequest(); }
+                return Ok(value);
+            }
+            catch (Exception ex)
+            {
+                return (IActionResult)ex;
+            }
+        }
+
+        // DELETE api/<InvoiceDTOController>/5
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                bool result = _InvoiceService.DeleteDTO(id);
+                if (_InvoiceService.GetDTOById(id) == null) { return BadRequest(); }
+                if (result == false) { return BadRequest(); }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return (IActionResult)ex;
+            }
+        }
     }
 }

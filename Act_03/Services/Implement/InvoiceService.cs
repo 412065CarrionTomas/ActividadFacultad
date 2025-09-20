@@ -1,11 +1,12 @@
 ﻿using Act_01.Domain;
 using Act_03.Models.Domain.DTOs;
-using Act_03.Models.Interface;
+using Act_03.Models.Repositories;
+using Act_03.Models.Repositories.InterfaceRepository;
 using System.Linq.Expressions;
 
 namespace Act_03.Services.Implement
 {
-    public class InvoiceService : IInvoiceService
+    public class InvoiceService : IGenericService<Invoice>
     {
         private readonly IInvoiceRepository _InvoiceRepository;
 
@@ -13,27 +14,7 @@ namespace Act_03.Services.Implement
         {
             _InvoiceRepository = invoiceRepository;
         }
-        //INVOICES DTO METODOS
-        public List<InvoiceDTO> GetAllDTO()
-        {
-            Expression<Func<Invoice, bool>> condicion = (x => x.Activo == 1);
-            List<Invoice> invoicesLts = _InvoiceRepository.GetAll(condicion);
-            List<InvoiceDTO> invoiceDTOLts = new List<InvoiceDTO>();
-            foreach(Invoice i in invoicesLts)
-            {
-                var objDTO = new InvoiceDTO(i);
-                invoiceDTOLts.Add(objDTO);
-            }
-            return invoiceDTOLts;
-        }
-
-
-
-        /// <summary>
-        /// INVOICES METODOS
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+        //INVOICE METODOS
         public bool Delete(int id)
         {
             return _InvoiceRepository.Delete(id);
@@ -48,7 +29,7 @@ namespace Act_03.Services.Implement
         public Invoice? GetById(int id)
         {
             Expression<Func<Invoice, bool>> condicion = (x => x.Activo == 1 && x.Id.Equals(id));
-            return _InvoiceRepository.GetById(id, condicion);
+            return _InvoiceRepository.GetByFilter(condicion);
         }
 
         public bool Insert(Invoice invoice)

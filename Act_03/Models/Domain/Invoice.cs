@@ -19,9 +19,15 @@ namespace Act_01.Domain
         [Required]
         public string Cliente { get; set; } = string.Empty;
         [Required]
-        public List<InvoiceDetail> invoiceDetailsList { get; set; } = new List<InvoiceDetail>() { new InvoiceDetail()
-        { article=new Article(){Id=0, NombreArticulo="", PrecioUnitario=0m}
-            , cantidad=0, Id = 0, nroFactura = 0} };
+        public List<InvoiceDetail> invoiceDetailsList { get; set; } = new List<InvoiceDetail>(){ new InvoiceDetail()
+        {
+            Id = 0,
+            Activo = 0,
+            cantidad = 0,
+            nroFactura = 0,
+            article = new Article() { Activo = 0, NombreArticulo = "", Id = 0, PrecioUnitario = 0m }
+        } 
+        };
         [Required]
         public int Activo { get; set; } = 0;
 

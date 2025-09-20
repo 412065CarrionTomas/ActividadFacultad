@@ -1,10 +1,12 @@
 ﻿using Act_01.Domain;
 using Act_03.Models.Context;
-using Act_03.Models.Interface;
+using Act_03.Models.Repositories;
+using Act_03.Models.Repositories.InterfaceRepository;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Linq.Expressions;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
 
 namespace Act_03.Models.Interface.Repositories
 {
@@ -25,7 +27,7 @@ namespace Act_03.Models.Interface.Repositories
                 .Where(condicion).ToList();
         }
 
-        public Invoice? GetById(int id, Expression<Func<Invoice, bool>> condicion)
+        public Invoice? GetByFilter(Expression<Func<Invoice, bool>> condicion)
         {
             return _InvoicesContext.Invoices
                 .Include(pm => pm.paymentMethod)
@@ -36,20 +38,18 @@ namespace Act_03.Models.Interface.Repositories
         public bool Insert(Invoice invoice)
         {
             _InvoicesContext.Invoices.Add(invoice);
-            if(_InvoicesContext.SaveChanges() == 0) { return false; }
-            else { return true; }
+            return _InvoicesContext.SaveChanges() > 0;
         }
         public bool Update(int id, Invoice invoiceUpdate)
         {
-            var invoice = _InvoicesContext.Invoices.Find(id);
-            if(invoice == null) { return false; }
-            invoice.Cliente = invoiceUpdate.Cliente;
-            invoice.paymentMethod = invoiceUpdate.paymentMethod;
-            invoice.Fecha = invoiceUpdate.Fecha;
-            invoice.Activo = invoiceUpdate.Activo;
-            _InvoicesContext.Entry(invoice).State = EntityState.Modified;
-            if(_InvoicesContext.SaveChanges() > 0 ) { return true; }
-            else { return false; }
+            var entityEntry = _InvoicesContext.Invoices.Find(id);
+            if(entityEntry == null) { return false; }
+            entityEntry.Cliente = invoiceUpdate.Cliente;
+            entityEntry.paymentMethod = invoiceUpdate.paymentMethod;
+            entityEntry.Fecha = invoiceUpdate.Fecha;
+            entityEntry.Activo = invoiceUpdate.Activo;
+            _InvoicesContext.Entry(entityEntry).State = EntityState.Modified;
+            return _InvoicesContext.SaveChanges() > 0;
         }
         public bool Delete(int id)
         {

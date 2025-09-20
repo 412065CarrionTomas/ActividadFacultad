@@ -7,6 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\Repositories\MethodIndependet\**" />
+    <Content Remove="Models\Repositories\MethodIndependet\**" />
+    <EmbeddedResource Remove="Models\Repositories\MethodIndependet\**" />
+    <None Remove="Models\Repositories\MethodIndependet\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\MethodIndependet\IArticleService.cs" />
+    <Compile Remove="Services\MethodIndependet\IInvoiceDetailServices.cs" />
+    <Compile Remove="Services\MethodIndependet\IInvoiceService.cs" />
+    <Compile Remove="Services\MethodIndependet\IPaymentMethodService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.9">
       <PrivateAssets>all</PrivateAssets>
@@ -18,6 +32,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\MethodIndependet\" />
   </ItemGroup>
 
 </Project>

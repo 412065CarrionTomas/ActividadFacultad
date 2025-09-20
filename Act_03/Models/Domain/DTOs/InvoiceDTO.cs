@@ -1,20 +1,25 @@
 ﻿using Act_01.Domain;
+using System.Linq;
 
 namespace Act_03.Models.Domain.DTOs
 {
     public class InvoiceDTO
     {
+        public int? IdInvoice { get; set; }
         public DateTime Fecha { get; set; }
-        public PaymentMethod PaymentMethod { get; set; }
+        public int IdPaymentMethod { get; set; }
         public string Cliente { get; set; }
-        public int Activo { get; set; }
+        public List<InvoiceDetailDTO> InvoiceDetailsDTOLts { get; set; }
+        
 
         public InvoiceDTO(Invoice invoice)
         {
+            IdInvoice = invoice.Id;
             Fecha = invoice.Fecha;
-            PaymentMethod = invoice.paymentMethod;
+            IdPaymentMethod = invoice.paymentMethod.Id;
             Cliente = invoice.Cliente;
-            Activo = invoice.Activo;
+            InvoiceDetailsDTOLts = invoice.invoiceDetailsList
+                                        .Select(x => new InvoiceDetailDTO(x)).ToList();
         }
     }
 }

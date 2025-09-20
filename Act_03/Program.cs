@@ -1,9 +1,15 @@
 
+using Act_01.Domain;
 using Act_03.Models.Context;
-using Act_03.Models.Interface;
+using Act_03.Models.Domain.DTOs;
 using Act_03.Models.Interface.Repositories;
+using Act_03.Models.Repositories;
+using Act_03.Models.Repositories.Implement;
+using Act_03.Models.Repositories.InterfaceRepository;
+using Act_03.Models.Repositories.RepositoryIndependet;
 using Act_03.Services;
 using Act_03.Services.Implement;
+using Act_03.Services.ImplementDTOs;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
@@ -23,10 +29,19 @@ namespace Act_03
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<InvoiceContext>(options => options.UseSqlServer(builder.Configuration.
                 GetConnectionString("DefaultConnection")));
+            //builder para invoice 
             builder.Services.AddScoped<IInvoiceRepository, InvoiceRepository>();
-            builder.Services.AddScoped<IInvoiceService, InvoiceService>();
-            
-
+            builder.Services.AddScoped<IGenericService<Invoice>, InvoiceService>();
+            builder.Services.AddScoped<IGenericDTOService<InvoiceDTO>, InvoiceDTOService>();
+            //builder para invoiceDetail
+            builder.Services.AddScoped<IInvoiceDetailRepository, InvoiceDetailRepository>();
+            builder.Services.AddScoped<IGenericService<InvoiceDetail>, InvoiceDetailService>();
+            //builder para article
+            builder.Services.AddScoped<IArticleRepository, ArticleRepository>();
+            builder.Services.AddScoped<IGenericService<Article>, ArticleService>();
+            //builder para paymentMethod
+            builder.Services.AddScoped<IPaymentMethodRepository, PaymentMethodRepository>();
+            builder.Services.AddScoped<IGenericService<PaymentMethod>, PaymentMethodService>();
 
             var app = builder.Build();
 

@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\services\\implement\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:services\\implement\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\services\\implement\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:services\\implement\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\models\\domain\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:models\\domain\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\controllers\\invoicedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:controllers\\invoicedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\controllers\\invoicedtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:controllers\\invoicedtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\models\\repositories\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:models\\repositories\\iinvoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\models\\repositories\\implement\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:models\\repositories\\implement\\invoicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\services\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:services\\iinvoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_03\\controllers\\paymentmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E01B3CA-EC36-4DD6-9515-4D1DC69BA098}|Act_03.csproj|solutionrelative:controllers\\paymentmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,93 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InvoiceDTOController.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\InvoiceDTOController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InvoiceDTOController.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\InvoiceDTOController.cs",
-              "RelativeToolTip": "Controllers\\InvoiceDTOController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ArticleService.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Services\\Implement\\ArticleService.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\ArticleService.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Services\\Implement\\ArticleService.cs",
+              "RelativeToolTip": "Services\\Implement\\ArticleService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAywCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T03:14:00.993Z",
+              "WhenOpened": "2025-09-20T01:08:55.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentMethodController.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\PaymentMethodController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentMethodController.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\PaymentMethodController.cs",
+              "RelativeToolTip": "Controllers\\PaymentMethodController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwF8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T00:49:05.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InvoiceDTO.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Models\\Domain\\DTOs\\InvoiceDTO.cs",
-              "RelativeDocumentMoniker": "Models\\Domain\\DTOs\\InvoiceDTO.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Models\\Domain\\DTOs\\InvoiceDTO.cs",
-              "RelativeToolTip": "Models\\Domain\\DTOs\\InvoiceDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Title": "InvoiceDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\InvoiceDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceDetailController.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\InvoiceDetailController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceDetailController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA5wEUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T03:03:23.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InvoicesController.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\InvoicesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InvoicesController.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Controllers\\InvoicesController.cs",
-              "RelativeToolTip": "Controllers\\InvoicesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T02:29:56.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IInvoiceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Models\\Repositories\\IInvoiceRepository.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\IInvoiceRepository.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Models\\Repositories\\IInvoiceRepository.cs",
-              "RelativeToolTip": "Models\\Repositories\\IInvoiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T02:28:30.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InvoiceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Models\\Repositories\\Implement\\InvoiceRepository.cs",
-              "RelativeDocumentMoniker": "Models\\Repositories\\Implement\\InvoiceRepository.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Models\\Repositories\\Implement\\InvoiceRepository.cs",
-              "RelativeToolTip": "Models\\Repositories\\Implement\\InvoiceRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAvwBUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T02:09:51.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IInvoiceService.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Services\\IInvoiceService.cs",
-              "RelativeDocumentMoniker": "Services\\IInvoiceService.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Services\\IInvoiceService.cs",
-              "RelativeToolTip": "Services\\IInvoiceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T02:23:39.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InvoiceService.cs",
-              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Services\\Implement\\InvoiceService.cs",
-              "RelativeDocumentMoniker": "Services\\Implement\\InvoiceService.cs",
-              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_03\\Services\\Implement\\InvoiceService.cs",
-              "RelativeToolTip": "Services\\Implement\\InvoiceService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T02:23:44.52Z",
+              "WhenOpened": "2025-09-20T00:49:05.069Z",
               "EditorCaption": ""
             }
           ]

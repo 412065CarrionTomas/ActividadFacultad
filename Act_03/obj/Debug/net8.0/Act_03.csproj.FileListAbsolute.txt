@@ -163,10 +163,10 @@ C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\staticwe
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\Act_03.csproj.Up2Date
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\Act_03.dll
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\refint\Act_03.dll
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\Act_03.pdb
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\Act_03.genruntimeconfig.cache
 C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\ref\Act_03.dll
-C:\Users\carri\FACULTAD\ActividadProgramacionII\Act_03\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

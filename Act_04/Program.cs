@@ -1,4 +1,7 @@
 
+using Act_04.Models.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace Act_04
 {
     public class Program
@@ -13,6 +16,8 @@ namespace Act_04
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            //context
+            builder.Services.AddDbContext<ShipmentContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
             var app = builder.Build();
 

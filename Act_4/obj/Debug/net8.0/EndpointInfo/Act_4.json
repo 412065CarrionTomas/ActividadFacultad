@@ -1,0 +1,61 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Act_4",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ShipmentDTOs": {
+      "get": {
+        "tags": [
+          "ShipmentDTOs"
+        ],
+        "parameters": [
+          {
+            "name": "addrres",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ShipmentDTOs/{id}": {
+      "delete": {
+        "tags": [
+          "ShipmentDTOs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_4\\services\\shipmentservice\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|solutionrelative:services\\shipmentservice\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_4\\services\\shipmentservice\\shipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|solutionrelative:services\\shipmentservice\\shipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_4\\controllers\\shipmentcontrollers\\shipmentdtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|solutionrelative:controllers\\shipmentcontrollers\\shipmentdtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_4\\dtos\\shipmentdetaildtos\\shipmentdetailreaddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|solutionrelative:dtos\\shipmentdetaildtos\\shipmentdetailreaddtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|c:\\users\\carri\\facultad\\actividadprogramacionii\\act_4\\dtos\\shipmentdtos\\shipmentdtoread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D9CA22-E5B0-4BFB-9846-1423222A091A}|Act_4.csproj|solutionrelative:dtos\\shipmentdtos\\shipmentdtoread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IShipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\Services\\ShipmentService\\IShipmentService.cs",
+              "RelativeDocumentMoniker": "Services\\ShipmentService\\IShipmentService.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\Services\\ShipmentService\\IShipmentService.cs",
+              "RelativeToolTip": "Services\\ShipmentService\\IShipmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T17:18:09.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShipmentDTOsController.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\Controllers\\ShipmentControllers\\ShipmentDTOsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShipmentControllers\\ShipmentDTOsController.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\Controllers\\ShipmentControllers\\ShipmentDTOsController.cs",
+              "RelativeToolTip": "Controllers\\ShipmentControllers\\ShipmentDTOsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T17:04:56.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\Services\\ShipmentService\\ShipmentService.cs",
+              "RelativeDocumentMoniker": "Services\\ShipmentService\\ShipmentService.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\Services\\ShipmentService\\ShipmentService.cs",
+              "RelativeToolTip": "Services\\ShipmentService\\ShipmentService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:54:09.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShipmentDTORead.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\DTOS\\ShipmentDTOs\\ShipmentDTORead.cs",
+              "RelativeDocumentMoniker": "DTOS\\ShipmentDTOs\\ShipmentDTORead.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\DTOS\\ShipmentDTOs\\ShipmentDTORead.cs",
+              "RelativeToolTip": "DTOS\\ShipmentDTOs\\ShipmentDTORead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:47:00.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShipmentDetailReadDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\DTOS\\ShipmentDetailDTOs\\ShipmentDetailReadDTOs.cs",
+              "RelativeDocumentMoniker": "DTOS\\ShipmentDetailDTOs\\ShipmentDetailReadDTOs.cs",
+              "ToolTip": "C:\\Users\\carri\\FACULTAD\\ActividadProgramacionII\\Act_4\\DTOS\\ShipmentDetailDTOs\\ShipmentDetailReadDTOs.cs",
+              "RelativeToolTip": "DTOS\\ShipmentDetailDTOs\\ShipmentDetailReadDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T16:41:42.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
